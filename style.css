@@ -1,0 +1,63 @@
+header { 
+    color: lightgray; 
+}
+
+* {box-sizing: border-box;
+}
+
+
+body { 
+    background: rgb(160, 103, 112); 
+}
+
+
+.square { 
+    text-align: right;
+    box-sizing:border-box; 
+    height: 250px; 
+    width: 250px; 
+    border-radius: 15px;
+    border: dotted;
+    margin: 10px; 
+    padding: 10px; 
+    color: lightsalmon; 
+    margin: 0 auto; 
+}
+
+
+#cool-square { 
+    background: red;
+}
+
+#uncool-square {
+    background: blue; 
+}
+
+
+
+h2 {
+    color: pink;
+    font size: 40px; 
+    font-style: italic; 
+}
+
+p { 
+    color: lightblue; 
+}
+
+li {
+    list-style-type: circle;
+}
+
+#special {
+    color: lightgreen
+    font-style: big 
+}
+
+.cool {
+    color:lightsalmon;
+}
+
+ul { 
+    color: white;
+}
