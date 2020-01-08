@@ -24,9 +24,21 @@ body {
     margin: 0 auto; 
 }
 
-
 #cool-square { 
     background: red;
+}
+
+#fancy-square { 
+    text-align: center;
+    padding: 1em;
+    border: 0.5em: solid black;
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    box-sizing:border-box; 
+    margin: 0 auto; 
+    padding: 10px; 
+
 }
 
 #uncool-square {
@@ -34,6 +46,9 @@ body {
 }
 
 
+div { 
+    margin: 100px; 
+}
 
 h2 {
     color: pink;

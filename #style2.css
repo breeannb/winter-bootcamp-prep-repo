@@ -16,6 +16,10 @@ body {
     color: orange; 
 }
 
+div { 
+    padding: 100px;
+}
+
 
 #cool-square { 
     background: red;
