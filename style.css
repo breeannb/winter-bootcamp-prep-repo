@@ -12,7 +12,7 @@ body {
 
 
 .square { 
-    text-align: right;
+    text-align: center;
     box-sizing:border-box; 
     height: 250px; 
     width: 250px; 
@@ -22,8 +22,14 @@ body {
     padding: 10px; 
     color: lightsalmon; 
     margin: 0 auto; 
+    transition: all .2s ease-in-out; 
 }
 
+.square:hover{
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+}
 #cool-square { 
     background: red;
 }
@@ -37,7 +43,9 @@ body {
     border-radius: 100%;
     box-sizing:border-box; 
     margin: 0 auto; 
-    padding: 10px; 
+    padding: 10px;
+    transition: all .2s 
+    transition: color: green;
 
 }
 
